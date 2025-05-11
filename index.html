@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/75ef42fb4c.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Vibrant Fitness!</title>
+    </head>
+    <body>
+        <header>
+            <!--Navbar Starts-->
+            <div class="container">
+                <nav>
+                    <div class="logo">Vibrant Fitness!</div>
+
+                    <ul class="nav-links">
+                        <li><a href="#features">Features</a></li>
+
+                        <li><a href="#workouts">Workouts</a></li>
+
+                        <li><a href="#stats">Stats</a></li>
+
+                        <li><a href="#faq">FAQ</a></li>
+
+                        <li><a href="#signup">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Navbar Ends-->
+
+        <!--Hero Section Starts-->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>If your body is tired, train with your mind</h1>
+                <p>
+                    Join our community of fitness enthusiasts and take your
+                    workouts to the next level. With personalized training
+                    plans, expert guidance, and a supportive community, you'll
+                    achieve your fitness goals in no time.
+                </p>
+                <button class="btn btn-cta">Get Started</button>
+                <button class="btn btn-outline">See Demo</button>
+            </div>
+            <!--Image Caurosel-->
+            <div class="hero-image">
+                <img
+                    src="https://img.freepik.com/premium-photo/fitness-community-promotes-teamwork-diversity-wellness_875825-44399.jpg"
+                    alt="Hero Image"
+                />
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Vibrant Fitness?</h2>
+                <div class="features">
+                    <div class="feature-card" data-feature="tracking">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <h3>Advanced Tracking</h3>
+                        <p>
+                            Track your workouts, nutrition, and progress with
+                            our advanced tracking tools. Stay motivated and
+                            accountable to your fitness goals.
+                        </p>
+                    </div>
+
+                    <div class="feature-card" data-feature="workouts">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                        <h3>Personalized Workouts</h3>
+                        <p>
+                            Get personalized workout plans tailored to your
+                            fitness level and goals. Our expert trainers will
+                            guide you every step of the way.
+                        </p>
+                    </div>
+
+                    <div class="feature-card" data-feature="nutrition">
+                        <div class="feature-icon">
+                            <i class="fa-brands fa-nutritionix"></i>
+                        </div>
+                        <h3>Nutrition Guidance</h3>
+                        <p>
+                            Fuel your body with the right nutrition. Our
+                            nutritionists will help you create a meal plan that
+                            supports your fitness journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hero Section Ends-->
+
+        <!--Workout Plan Section Starts-->
+
+        <section id="workouts" class="workout-section">
+            <div class="container">
+                <h2 class="section-title">Explore Workout Plans</h2>
+                <div class="workout-plans">
+                    <button
+                        class="btn workout-plan-btn active-plan"
+                        data-plan="beginner"
+                    >
+                        Beginner
+                    </button>
+
+                    <button
+                        class="btn workout-plan-btn"
+                        data-plan="intermediate"
+                    >
+                        Intermediate
+                    </button>
+
+                    <button class="btn workout-plan-btn" data-plan="advanced">
+                        Advanced
+                    </button>
+                </div>
+                <div class="workout-gallery">
+                    <!--workout cards will be dynamically added here by Javascript-->
+                </div>
+
+                <div class="gallery-navigation">
+                    <button class="gallery-nav-btn prev-btn">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button class="gallery-nav-btn next-btn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="gallery-dots">
+                    <!--Dots added by Javascript-->
+                </div>
+            </div>
+        </section>
+
+        <!--Workout Plan Section Ends-->
+
+        <!--Stats Section Starts-->
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <h2 class="section-title">Our Success Stories</h2>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number">300K+</div>
+                        <div class="stat-label">Active Users</div>
+                        <div class="progress-container">
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Goal Achievement</div>
+                        <div class="progress-container">
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-number">4.8</div>
+                        <div class="stat-label">App Rating</div>
+                        <div class="progress-container">
+                            <div class="progress-bar" data-progress="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Stats Section Ends-->
+
+        <!--FAQ Section Starts-->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <!-- FAQ items will be dynamically added here by JavaScript -->
+                </div>
+            </div>
+        </section>
+        <!--FAQ Section Ends-->
+
+        <!--Contact Section Starts-->
+        <section>
+            <div class="container">
+                <h2 class="section-title">Start Your Fitness Journey Today</h2>
+                <div class="form-container">
+                    <form id="signup-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label"
+                                >Full Name</label
+                            >
+                            <input
+                                type="text"
+                                id="name"
+                                class="form-input"
+                                placeholder="Enter your full name"
+                            />
+                            <div class="error-message" id="name-error">
+                                Please enter your full name
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label"
+                                >Email Address</label
+                            >
+                            <input
+                                type="email"
+                                id="email"
+                                class="form-input"
+                                placeholder="Enter your email"
+                            />
+                            <div class="error-message" id="email-error">
+                                Please enter a valid email address
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="form-label"
+                                >Create Password</label
+                            >
+                            <div class="password-container">
+                                <input
+                                    type="password"
+                                    id="password"
+                                    class="form-input"
+                                    placeholder="Create a secure password"
+                                />
+                                <div class="password-strength">
+                                    <div class="password-strength-bar"></div>
+                                </div>
+                            </div>
+                            <div class="error-message" id="password-error">
+                                Password must be at least 8 characters with
+                                numbers and letters
+                            </div>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%">
+                            Sign Up Now
+                        </button>
+                    </form>
+                    <div class="form-success">
+                        <h3>Thank you for signing up!</h3>
+                        <p>Check your email to complete your registration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section Ends-->
+
+        <footer>
+            <div class="container">
+                <div class="logo">
+                    <span class="logo-icon">🏋️</span> Vibrant Fitness
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"
+                        ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a href="#" class="social-link"
+                        ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                    <a href="#" class="social-link"
+                        ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
+                    <a href="#" class="social-link"
+                        ><i class="fa-brands fa-square-instagram"></i
+                    ></a>
+                </div>
+                <div class="copyright">
+                    © 2025 Vibrant Fitness. All rights reserved.
+                </div>
+            </div>
+        </footer>
+
+        <div class="hotkey-indicator" id="hotkey-display"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
